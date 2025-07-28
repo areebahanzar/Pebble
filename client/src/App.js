@@ -1,10 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
-
+// import logo from './logo.svg';
+// import './App.css';
+import Goals from './goals';
+// build general page shape
 function App() {
   return (
+
     <div className="App">
-      <header className="App-header">
+      <button> Create </button>
+      <Goals />
+      {/* <header className="App-header">
+        <goals />
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -17,7 +22,7 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
     </div>
   );
 }
